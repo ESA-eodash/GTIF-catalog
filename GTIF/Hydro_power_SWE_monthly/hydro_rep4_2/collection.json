@@ -1,0 +1,632 @@
+{
+  "type": "Collection",
+  "id": "hydro_rep4_2",
+  "stac_version": "1.0.0",
+  "description": "#### TIPS ON USING THIS TOOL\nUse this tool to select a point of interest on the map and see the temporal trends of surface water extent/area for a specific location.\n\n#### WHY THIS DATA\nThe hydro power (reservoir) tool is used to present reservoir surface area, level and storage changes. First, we analyze individual reservoirs extracting water area from pre-processed optical and SAR satellite imageries using a machine learning algorithm. After outlier filtering and post-process, the timeseries graph are constructed for each individual reservoir. Where there is a cross-section with Sentinel 3A/B orbits the reservoir water levels are directly obtained from satellite altimetry. Where only SWE time series exist the storage level is estimated based on the nominal change in surface water area.\n\n**Developed with**  \n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/gtif-logos/dhi_row.png)\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/19921.json",
+      "type": "application/json",
+      "id": "19921",
+      "latlng": "47.081056,13.325571",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/19922.json",
+      "type": "application/json",
+      "id": "19922",
+      "latlng": "46.635921,14.615168",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/19923.json",
+      "type": "application/json",
+      "id": "19923",
+      "latlng": "46.554894,14.410439",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/19924.json",
+      "type": "application/json",
+      "id": "19924",
+      "latlng": "46.537708,14.122988",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/543.json",
+      "type": "application/json",
+      "id": "543",
+      "latlng": "47.131650,12.620296",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/544.json",
+      "type": "application/json",
+      "id": "544",
+      "latlng": "47.028116,14.009152",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/545.json",
+      "type": "application/json",
+      "id": "545",
+      "latlng": "47.065851,12.763118",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/546.json",
+      "type": "application/json",
+      "id": "546",
+      "latlng": "46.971321,10.122194",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/547.json",
+      "type": "application/json",
+      "id": "547",
+      "latlng": "48.603465,15.290595",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/548.json",
+      "type": "application/json",
+      "id": "548",
+      "latlng": "47.162621,12.717261",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/549.json",
+      "type": "application/json",
+      "id": "549",
+      "latlng": "48.599002,15.468962",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/550.json",
+      "type": "application/json",
+      "id": "550",
+      "latlng": "46.932617,10.055113",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/551.json",
+      "type": "application/json",
+      "id": "551",
+      "latlng": "48.160004,14.476552",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/552.json",
+      "type": "application/json",
+      "id": "552",
+      "latlng": "47.253057,12.736121",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/553.json",
+      "type": "application/json",
+      "id": "553",
+      "latlng": "47.541206,12.213670",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/554.json",
+      "type": "application/json",
+      "id": "554",
+      "latlng": "47.990246,14.367644",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/555.json",
+      "type": "application/json",
+      "id": "555",
+      "latlng": "47.604260,14.735834",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/556.json",
+      "type": "application/json",
+      "id": "556",
+      "latlng": "47.774959,13.214061",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/557.json",
+      "type": "application/json",
+      "id": "557",
+      "latlng": "47.234891,12.102121",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/558.json",
+      "type": "application/json",
+      "id": "558",
+      "latlng": "46.519407,14.451329",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/559.json",
+      "type": "application/json",
+      "id": "559",
+      "latlng": "47.471936,9.942954",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/560.json",
+      "type": "application/json",
+      "id": "560",
+      "latlng": "46.683860,15.030696",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/561.json",
+      "type": "application/json",
+      "id": "561",
+      "latlng": "47.156152,10.077758",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/562.json",
+      "type": "application/json",
+      "id": "562",
+      "latlng": "47.866593,13.794124",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/563.json",
+      "type": "application/json",
+      "id": "563",
+      "latlng": "47.306405,13.130730",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/564.json",
+      "type": "application/json",
+      "id": "564",
+      "latlng": "46.545838,14.243361",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/565.json",
+      "type": "application/json",
+      "id": "565",
+      "latlng": "47.053279,9.753098",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/566.json",
+      "type": "application/json",
+      "id": "566",
+      "latlng": "46.937020,10.740668",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/567.json",
+      "type": "application/json",
+      "id": "567",
+      "latlng": "47.468678,10.801356",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/568.json",
+      "type": "application/json",
+      "id": "568",
+      "latlng": "46.909381,10.094239",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/569.json",
+      "type": "application/json",
+      "id": "569",
+      "latlng": "47.138777,12.548817",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/570.json",
+      "type": "application/json",
+      "id": "570",
+      "latlng": "47.510699,12.832344",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/571.json",
+      "type": "application/json",
+      "id": "571",
+      "latlng": "47.528262,13.506871",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/572.json",
+      "type": "application/json",
+      "id": "572",
+      "latlng": "46.598445,13.955076",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/573.json",
+      "type": "application/json",
+      "id": "573",
+      "latlng": "47.118956,12.072738",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/574.json",
+      "type": "application/json",
+      "id": "574",
+      "latlng": "46.976745,15.024627",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/575.json",
+      "type": "application/json",
+      "id": "575",
+      "latlng": "47.059198,12.924555",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/576.json",
+      "type": "application/json",
+      "id": "576",
+      "latlng": "47.095382,13.409205",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/577.json",
+      "type": "application/json",
+      "id": "577",
+      "latlng": "46.982598,13.089892",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/578.json",
+      "type": "application/json",
+      "id": "578",
+      "latlng": "46.917443,13.375506",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/579.json",
+      "type": "application/json",
+      "id": "579",
+      "latlng": "47.066228,10.262599",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/580.json",
+      "type": "application/json",
+      "id": "580",
+      "latlng": "47.002824,13.058215",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/581.json",
+      "type": "application/json",
+      "id": "581",
+      "latlng": "48.117104,14.478438",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/582.json",
+      "type": "application/json",
+      "id": "582",
+      "latlng": "47.027810,11.708585",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/583.json",
+      "type": "application/json",
+      "id": "583",
+      "latlng": "47.023621,13.002572",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/584.json",
+      "type": "application/json",
+      "id": "584",
+      "latlng": "47.076048,13.056083",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/585.json",
+      "type": "application/json",
+      "id": "585",
+      "latlng": "47.187268,12.719154",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/586.json",
+      "type": "application/json",
+      "id": "586",
+      "latlng": "46.631108,14.070549",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/587.json",
+      "type": "application/json",
+      "id": "587",
+      "latlng": "47.750656,13.172155",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/588.json",
+      "type": "application/json",
+      "id": "588",
+      "latlng": "46.724230,13.575045",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/589.json",
+      "type": "application/json",
+      "id": "589",
+      "latlng": "47.448441,10.513170",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/590.json",
+      "type": "application/json",
+      "id": "590",
+      "latlng": "47.174931,12.625024",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/591.json",
+      "type": "application/json",
+      "id": "591",
+      "latlng": "48.076826,14.455810",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/592.json",
+      "type": "application/json",
+      "id": "592",
+      "latlng": "47.795630,14.165737",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/593.json",
+      "type": "application/json",
+      "id": "593",
+      "latlng": "47.077079,9.874731",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/594.json",
+      "type": "application/json",
+      "id": "594",
+      "latlng": "47.193127,11.025793",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/595.json",
+      "type": "application/json",
+      "id": "595",
+      "latlng": "47.115421,11.876709",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/596.json",
+      "type": "application/json",
+      "id": "596",
+      "latlng": "48.593019,15.382536",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/597.json",
+      "type": "application/json",
+      "id": "597",
+      "latlng": "47.152729,12.644224",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/598.json",
+      "type": "application/json",
+      "id": "598",
+      "latlng": "46.940139,13.372149",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/599.json",
+      "type": "application/json",
+      "id": "599",
+      "latlng": "47.210756,11.001272",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "item",
+      "href": "./hydro_rep4_2/2010/600.json",
+      "type": "application/json",
+      "id": "600",
+      "latlng": "46.923970,13.367595",
+      "country": null,
+      "city": null
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Hydropower SWE monthly"
+    }
+  ],
+  "subtitle": "Surface water extent - expected vs. actual monthly energy potential",
+  "yAxis": "Area [km\u00b2]",
+  "themes": [
+    "energy-transition"
+  ],
+  "tags": [
+    "Hydropower assessment"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "REP4_2",
+  "endpointtype": "GeoDB",
+  "title": "Hydropower SWE monthly",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          9.743098,
+          46.509407,
+          15.478962,
+          48.613465
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2010-01-01T00:00:00Z",
+          "2022-12-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "placeholder"
+    }
+  ],
+  "summaries": {
+    "cities": [
+      null
+    ],
+    "countries": [
+      null
+    ]
+  }
+}

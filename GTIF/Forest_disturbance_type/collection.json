@@ -1,0 +1,121 @@
+{
+  "type": "Collection",
+  "id": "Forest_disturbance_type",
+  "stac_version": "1.0.0",
+  "description": "The forest disturbance type classification output is based on a limited amount of training data, which is unlikely to represent all possible phenological conditions or forest structure types. This prototype is not validated and should therefore be considered as an example of the type of product which could be created based on the implemented methodology and training data available so far.\n\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "child",
+      "href": "./Forest_disturbance_type/collection.json",
+      "type": "application/json",
+      "title": "Forest disturbance type",
+      "subtitle": "Forest disturbance type",
+      "code": "FCM2",
+      "id": "Forest_disturbance_type",
+      "themes": [
+        "carbon-accounting",
+        "eo-adaptation-services"
+      ],
+      "tags": [
+        "Forest Analysis"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "FCM2"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    }
+  ],
+  "subtitle": "Forest disturbance type",
+  "themes": [
+    "carbon-accounting",
+    "eo-adaptation-services"
+  ],
+  "tags": [
+    "Forest Analysis"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "FCM2",
+  "title": "Forest disturbance type",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ],
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-01-01T00:00:00Z",
+          "2023-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "placeholder"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "FCM2"
+    ],
+    "themes": [
+      "carbon-accounting",
+      "eo-adaptation-services"
+    ],
+    "satellite": [
+      "placeholder"
+    ],
+    "sensor": [
+      "placeholder"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/FCM2_Forest_disturbance_type/FCM_dist_type.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "type": "Collection",
+  "id": "Heat_Explorer",
+  "stac_version": "1.0.0",
+  "description": "The data viewer provides a uniform coverage of observations of the ECOSTRESS instrument mounted on the International Space Station.\nData shows land surface temperatures measured during early afternoon hours in \u00b0C. The map is composed of single observations acquired between June 1st to June 24th, in order to result in an almost cloud-free image.\nAdditional analytical elements are presented on commune level featuring min, max and mean land surface temperatures, as well as the percentage of the residential population exposed to surface temperatures above 35\u00b0C.\n\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "child",
+      "href": "./Heat_Explorer/collection.json",
+      "type": "application/json",
+      "title": "Heat Explorer",
+      "subtitle": "Heat Explorer",
+      "code": "LST",
+      "id": "Heat_Explorer",
+      "themes": [
+        "eo-adaptation-services"
+      ],
+      "tags": [
+        "Heat Explorer"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "LST"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    }
+  ],
+  "subtitle": "Heat Explorer",
+  "themes": [
+    "eo-adaptation-services"
+  ],
+  "tags": [
+    "Heat Explorer"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "LST",
+  "title": "Heat Explorer",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ],
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-01-01T00:00:00Z",
+          "2023-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "GeoVille"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "LST"
+    ],
+    "themes": [
+      "eo-adaptation-services"
+    ],
+    "satellite": [
+      "placeholder"
+    ],
+    "sensor": [
+      "placeholder"
+    ]
+  }
+}

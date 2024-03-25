@@ -1,0 +1,1576 @@
+{
+  "type": "Catalog",
+  "id": "GTIF",
+  "stac_version": "1.0.0",
+  "description": "Green Transition Information Factory",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "child",
+      "href": "./Alpine_Drought_Observatory_SPI1/collection.json",
+      "type": "application/json",
+      "title": "SPI1",
+      "subtitle": "Alpine Drought Observatory SPI1",
+      "code": "ADO",
+      "id": "Alpine_Drought_Observatory_SPI1",
+      "themes": [
+        "eo-adaptation-services"
+      ],
+      "subcode": "ADO",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Alpine Drought Observatory"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Alpine_Drought_Observatory_SPI12/collection.json",
+      "type": "application/json",
+      "title": "SPI12",
+      "subtitle": "Alpine Drought Observatory SPI12",
+      "code": "ADO_1",
+      "id": "Alpine_Drought_Observatory_SPI12",
+      "themes": [
+        "eo-adaptation-services"
+      ],
+      "subcode": "ADO_1",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Alpine Drought Observatory"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Alpine_Drought_Observatory_SPEI1/collection.json",
+      "type": "application/json",
+      "title": "SPEI1",
+      "subtitle": "Alpine Drought Observatory SPEI1",
+      "code": "ADO_2",
+      "id": "Alpine_Drought_Observatory_SPEI1",
+      "themes": [
+        "eo-adaptation-services"
+      ],
+      "subcode": "ADO_2",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Alpine Drought Observatory"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Alpine_Drought_Observatory_SPEI12/collection.json",
+      "type": "application/json",
+      "title": "SPEI12",
+      "subtitle": "Alpine Drought Observatory SPEI12",
+      "code": "ADO_3",
+      "id": "Alpine_Drought_Observatory_SPEI12",
+      "themes": [
+        "eo-adaptation-services"
+      ],
+      "subcode": "ADO_3",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Alpine Drought Observatory"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./aggregated_mobility_data_trajectories/collection.json",
+      "type": "application/json",
+      "title": "Number of trajectories",
+      "subtitle": "Air Quality Mobility correlation",
+      "code": "AQ1",
+      "id": "aggregated_mobility_data_trajectories",
+      "themes": [
+        "mobility-transition"
+      ],
+      "subcode": "AQ1",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Mobility - Air Quality Correlation"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./aggregated_mobility_data_satellite_values/collection.json",
+      "type": "application/json",
+      "title": "Sentinel5-p NO2",
+      "subtitle": "Air Quality Mobility correlation [\u00b5mol/m\u00b2]",
+      "code": "AQ1_1",
+      "id": "aggregated_mobility_data_satellite_values",
+      "themes": [
+        "mobility-transition"
+      ],
+      "subcode": "AQ1_1",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Mobility - Air Quality Correlation"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./aggregated_mobility_data_mean_value/collection.json",
+      "type": "application/json",
+      "title": "Mean value",
+      "subtitle": "Air Quality Mobility correlation [\u00b5g/m\u00b3]",
+      "code": "AQ1_2",
+      "id": "aggregated_mobility_data_mean_value",
+      "themes": [
+        "mobility-transition"
+      ],
+      "subcode": "AQ1_2",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Mobility - Air Quality Correlation"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./aggregated_mobility_data_congestion_index/collection.json",
+      "type": "application/json",
+      "title": "Congestion Index",
+      "subtitle": "Air Quality Mobility correlation",
+      "code": "AQ1_3",
+      "id": "aggregated_mobility_data_congestion_index",
+      "themes": [
+        "mobility-transition"
+      ],
+      "subcode": "AQ1_3",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Mobility - Air Quality Correlation"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./aggregated_mobility_data_speed/collection.json",
+      "type": "application/json",
+      "title": "Speed",
+      "subtitle": "Air Quality Mobility correlation",
+      "code": "AQ1_4",
+      "id": "aggregated_mobility_data_speed",
+      "themes": [
+        "mobility-transition"
+      ],
+      "subcode": "AQ1_4",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Mobility - Air Quality Correlation"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./aggregated_mobility_data_motorized_count/collection.json",
+      "type": "application/json",
+      "title": "Motorized count",
+      "subtitle": "Air Quality Mobility correlation",
+      "code": "AQ1_5",
+      "id": "aggregated_mobility_data_motorized_count",
+      "themes": [
+        "mobility-transition"
+      ],
+      "subcode": "AQ1_5",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Mobility - Air Quality Correlation"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./aggregated_mobility_data_motorized_share/collection.json",
+      "type": "application/json",
+      "title": "Motorized share",
+      "subtitle": "Air Quality Mobility correlation",
+      "code": "AQ1_6",
+      "id": "aggregated_mobility_data_motorized_share",
+      "themes": [
+        "mobility-transition"
+      ],
+      "subcode": "AQ1_6",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Mobility - Air Quality Correlation"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./NO2_Innsbruck_hot_spot_emissions/collection.json",
+      "type": "application/json",
+      "title": "Innsbruck hot spot NO2 emissions",
+      "subtitle": "Surface NO2 emissions measured at Innsbruck Atmospheric Observatory (IAO)",
+      "code": "AQ2",
+      "id": "NO2_Innsbruck_hot_spot_emissions",
+      "themes": [
+        "mobility-transition"
+      ],
+      "subcode": "AQ2",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "NO2 measurements"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Human_Mobility_Patterns_Max_Duration/collection.json",
+      "type": "application/json",
+      "title": "Max Duration",
+      "subtitle": "Max Trip Duration",
+      "code": "AQ4_1",
+      "id": "Human_Mobility_Patterns_Max_Duration",
+      "themes": [
+        "mobility-transition"
+      ],
+      "subcode": "AQ4_1",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Human Mobility Patterns"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Human_Mobility_Patterns_Max_Speed/collection.json",
+      "type": "application/json",
+      "title": "Max Speed",
+      "subtitle": "Max Trip speed",
+      "code": "AQ4_2",
+      "id": "Human_Mobility_Patterns_Max_Speed",
+      "themes": [
+        "mobility-transition"
+      ],
+      "subcode": "AQ4_2",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Human Mobility Patterns"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Human_Mobility_Patterns_Max_Distance/collection.json",
+      "type": "application/json",
+      "title": "Max Distance",
+      "subtitle": "Max Trip distance",
+      "code": "AQ4_3",
+      "id": "Human_Mobility_Patterns_Max_Distance",
+      "themes": [
+        "mobility-transition"
+      ],
+      "subcode": "AQ4_3",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Human Mobility Patterns"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Human_Mobility_Patterns_Max_Trajectories/collection.json",
+      "type": "application/json",
+      "title": "Max Trajectories",
+      "subtitle": "Max Trajectories",
+      "code": "AQ4_4",
+      "id": "Human_Mobility_Patterns_Max_Trajectories",
+      "themes": [
+        "mobility-transition"
+      ],
+      "subcode": "AQ4_4",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Human Mobility Patterns"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Human_Mobility_Patterns_Max_Motorized_trip_share/collection.json",
+      "type": "application/json",
+      "title": "Max Trip Share Index",
+      "subtitle": "Max Motorized trip share index",
+      "code": "AQ4_5",
+      "id": "Human_Mobility_Patterns_Max_Motorized_trip_share",
+      "themes": [
+        "mobility-transition"
+      ],
+      "subcode": "AQ4_5",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Human Mobility Patterns"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Human_Mobility_Patterns_Max_Congestion_Index/collection.json",
+      "type": "application/json",
+      "title": "Max Congestion Index",
+      "subtitle": "Max Congestion Index",
+      "code": "AQ4",
+      "id": "Human_Mobility_Patterns_Max_Congestion_Index",
+      "themes": [
+        "mobility-transition"
+      ],
+      "subcode": "AQ4",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Human Mobility Patterns"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Nitrogen_Dioxide_S5P/collection.json",
+      "type": "application/json",
+      "title": "Nitrogen Dioxide (NO2)",
+      "subtitle": "NO2 maps obtained from the Copernicus Sentinel5-p satellite",
+      "code": "AQ5",
+      "id": "Nitrogen_Dioxide_S5P",
+      "themes": [
+        "mobility-transition"
+      ],
+      "subcode": "AQ5",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "NO2 measurements"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./health_risk_index/collection.json",
+      "type": "application/json",
+      "title": "Health Risk Index (ARI)",
+      "subtitle": "Daily aggregated maps of ARI index",
+      "code": "AQA",
+      "id": "health_risk_index",
+      "themes": [
+        "mobility-transition"
+      ],
+      "subcode": "AQA",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Air Quality Health"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Coarse_particulate_matter_PM10/collection.json",
+      "type": "application/json",
+      "title": "Coarse particulate matter (PM10)",
+      "subtitle": "Daily aggregated maps of PM10 concentration",
+      "code": "AQB",
+      "id": "Coarse_particulate_matter_PM10",
+      "themes": [
+        "mobility-transition"
+      ],
+      "subcode": "AQB",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Air Quality Health"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Coarse_particulate_matter_PM2.5/collection.json",
+      "type": "application/json",
+      "title": "Fine particulate matter (PM2.5)",
+      "subtitle": "Daily aggregated maps of PM2.5 concentration",
+      "code": "AQC",
+      "id": "Coarse_particulate_matter_PM2.5",
+      "themes": [
+        "mobility-transition"
+      ],
+      "subcode": "AQC",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Air Quality Health"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Above_Ground_Biomass/collection.json",
+      "type": "application/json",
+      "title": "Above Ground Biomass",
+      "subtitle": "Above Ground Biomass",
+      "code": "BM2",
+      "id": "Above_Ground_Biomass",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "subcode": "BM2",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Forest Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Snowdepth/collection.json",
+      "type": "application/json",
+      "title": "Snowdepth",
+      "subtitle": "Snowdepth EO4Alps",
+      "code": "EO4A",
+      "id": "Snowdepth",
+      "themes": [
+        "eo-adaptation-services"
+      ],
+      "subcode": "EO4A",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "EO4Alps"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Snow_water_equivalent/collection.json",
+      "type": "application/json",
+      "title": "Snow water equivalent",
+      "subtitle": "Snow water equivalent EO4Alps",
+      "code": "EO4A2",
+      "id": "Snow_water_equivalent",
+      "themes": [
+        "eo-adaptation-services"
+      ],
+      "subcode": "EO4A2",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "EO4Alps"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./truck_detections_motorways/collection.json",
+      "type": "application/json",
+      "title": "Moving truck detections Motorways",
+      "subtitle": "Moving truck detections Motorways",
+      "code": "E12c",
+      "id": "truck_detections_motorways",
+      "themes": [
+        "mobility-transition"
+      ],
+      "subcode": "E12c",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Moving Truck Detections"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./truck_detections_primary_roads/collection.json",
+      "type": "application/json",
+      "title": "Moving truck detections Primary Roads",
+      "subtitle": "Moving truck detections Primary Roads",
+      "code": "E12d",
+      "id": "truck_detections_primary_roads",
+      "themes": [
+        "mobility-transition"
+      ],
+      "subcode": "E12d",
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Moving Truck Detections"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Forest_change_detections/collection.json",
+      "type": "application/json",
+      "title": "Forest change detections",
+      "subtitle": "Forest change detections",
+      "code": "FCM1",
+      "id": "Forest_change_detections",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "subcode": "FCM1",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Forest Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Forest_disturbance_type/collection.json",
+      "type": "application/json",
+      "title": "Forest disturbance type",
+      "subtitle": "Forest disturbance type",
+      "code": "FCM2",
+      "id": "Forest_disturbance_type",
+      "themes": [
+        "carbon-accounting",
+        "eo-adaptation-services"
+      ],
+      "subcode": "FCM2",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Forest Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Annual_forest_mask/collection.json",
+      "type": "application/json",
+      "title": "Annual forest mask",
+      "subtitle": "Annual forest mask",
+      "code": "FCM3",
+      "id": "Annual_forest_mask",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "subcode": "FCM3",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Forest Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Heat_Explorer/collection.json",
+      "type": "application/json",
+      "title": "Heat Explorer",
+      "subtitle": "Heat Explorer",
+      "code": "LST",
+      "id": "Heat_Explorer",
+      "themes": [
+        "eo-adaptation-services"
+      ],
+      "subcode": "LST",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Heat Explorer"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Dynamic_human_presence_count/collection.json",
+      "type": "application/json",
+      "title": "Dynamic human presence count",
+      "subtitle": "Max population count (for day)",
+      "code": "MOBI1",
+      "id": "Dynamic_human_presence_count",
+      "themes": [
+        "mobility-transition"
+      ],
+      "subcode": "MOBI1",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Dynamic human presence"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Dynamic_human_presence_density/collection.json",
+      "type": "application/json",
+      "title": "Dynamic human presence density",
+      "subtitle": "Max population density (for day)",
+      "code": "MOBI1_1",
+      "id": "Dynamic_human_presence_density",
+      "themes": [
+        "mobility-transition"
+      ],
+      "subcode": "MOBI1_1",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Dynamic human presence"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Wind_Energy_200m/collection.json",
+      "type": "application/json",
+      "title": "Wind Energy Assessment at 200m height",
+      "subtitle": "Site Suitability Assessment & Trade-off Explorer",
+      "code": "REP1",
+      "id": "Wind_Energy_200m",
+      "themes": [
+        "energy-transition"
+      ],
+      "subcode": "REP1",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Wind Energy Assessment"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Wind_Energy_100m/collection.json",
+      "type": "application/json",
+      "title": "Wind Energy Assessment at 100m height",
+      "subtitle": "Site Suitability Assessment & Trade-off Explorer",
+      "code": "REP1_1",
+      "id": "Wind_Energy_100m",
+      "themes": [
+        "energy-transition"
+      ],
+      "subcode": "REP1_1",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Wind Energy Assessment"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Wind_Energy_50m/collection.json",
+      "type": "application/json",
+      "title": "Wind Energy Assessment at 50m height",
+      "subtitle": "Site Suitability Assessment & Trade-off Explorer",
+      "code": "REP1_2",
+      "id": "Wind_Energy_50m",
+      "themes": [
+        "energy-transition"
+      ],
+      "subcode": "REP1_2",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Wind Energy Assessment"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Solar_Energy_Annual/collection.json",
+      "type": "application/json",
+      "title": "Solar Energy Assessment Annual Average",
+      "subtitle": "Site Suitability Assessment & Trade-off Explorer",
+      "code": "REP2",
+      "id": "Solar_Energy_Annual",
+      "themes": [
+        "energy-transition"
+      ],
+      "subcode": "REP2",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Solar Energy Assessment"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Solar_Energy_Fall/collection.json",
+      "type": "application/json",
+      "title": "Solar Energy Assessment Fall",
+      "subtitle": "Site Suitability Assessment & Trade-off Explorer",
+      "code": "REP2_1",
+      "id": "Solar_Energy_Fall",
+      "themes": [
+        "energy-transition"
+      ],
+      "subcode": "REP2_1",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Solar Energy Assessment"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Solar_Energy_Spring/collection.json",
+      "type": "application/json",
+      "title": "Solar Energy Assessment Spring",
+      "subtitle": "Site Suitability Assessment & Trade-off Explorer",
+      "code": "REP2_2",
+      "id": "Solar_Energy_Spring",
+      "themes": [
+        "energy-transition"
+      ],
+      "subcode": "REP2_2",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Solar Energy Assessment"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Solar_Energy_Summer/collection.json",
+      "type": "application/json",
+      "title": "Solar Energy Assessment Summer",
+      "subtitle": "Site Suitability Assessment & Trade-off Explorer",
+      "code": "REP2_3",
+      "id": "Solar_Energy_Summer",
+      "themes": [
+        "energy-transition"
+      ],
+      "subcode": "REP2_3",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Solar Energy Assessment"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Solar_Energy_Winter/collection.json",
+      "type": "application/json",
+      "title": "Solar Energy Assessment Winter",
+      "subtitle": "Site Suitability Assessment & Trade-off Explorer",
+      "code": "REP2_4",
+      "id": "Solar_Energy_Winter",
+      "themes": [
+        "energy-transition"
+      ],
+      "subcode": "REP2_4",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Solar Energy Assessment"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Hydro_power_SWE_daily/collection.json",
+      "type": "application/json",
+      "title": "Hydropower SWE daily",
+      "subtitle": "Surface water extent - current daily energy potential",
+      "code": "REP4_1",
+      "id": "Hydro_power_SWE_daily",
+      "themes": [
+        "energy-transition"
+      ],
+      "subcode": "REP4_1",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        null
+      ],
+      "countries": [
+        null
+      ],
+      "tags": [
+        "Hydropower assessment"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Hydro_power_SWE_monthly/collection.json",
+      "type": "application/json",
+      "title": "Hydropower SWE monthly",
+      "subtitle": "Surface water extent - expected vs. actual monthly energy potential",
+      "code": "REP4_2",
+      "id": "Hydro_power_SWE_monthly",
+      "themes": [
+        "energy-transition"
+      ],
+      "subcode": "REP4_2",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        null
+      ],
+      "countries": [
+        null
+      ],
+      "tags": [
+        "Hydropower assessment"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Hydro_power_WSE_monthly/collection.json",
+      "type": "application/json",
+      "title": "Hydropower WSE monthly",
+      "subtitle": "Water levels",
+      "code": "REP4_4",
+      "id": "Hydro_power_WSE_monthly",
+      "themes": [
+        "energy-transition"
+      ],
+      "subcode": "REP4_4",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        null
+      ],
+      "countries": [
+        null
+      ],
+      "tags": [
+        "Hydropower assessment"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Hydro_LAC_Curve/collection.json",
+      "type": "application/json",
+      "title": "Hydropower Level Area Height Curve",
+      "subtitle": "Level-Area-Height curve (LAC) monthly",
+      "code": "REP4_5",
+      "id": "Hydro_LAC_Curve",
+      "themes": [
+        "energy-transition"
+      ],
+      "subcode": "REP4_5",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        null
+      ],
+      "countries": [
+        null
+      ],
+      "tags": [
+        "Hydropower assessment"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Hydro_Storage_Change/collection.json",
+      "type": "application/json",
+      "title": "Hydropower Storage Change",
+      "subtitle": "Hydro Power inferred volume daily",
+      "code": "REP4_6",
+      "id": "Hydro_Storage_Change",
+      "themes": [
+        "energy-transition"
+      ],
+      "subcode": "REP4_6",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "cities": [
+        null
+      ],
+      "countries": [
+        null
+      ],
+      "tags": [
+        "Hydropower assessment"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Micro_Hydropower/collection.json",
+      "type": "application/json",
+      "title": "Micro Hydropower",
+      "subtitle": "Micro Hydropower",
+      "code": "REP5",
+      "id": "Micro_Hydropower",
+      "themes": [
+        "energy-transition"
+      ],
+      "subcode": "REP5",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Micro Hydropower tools"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Wind_Turbine_Detections/collection.json",
+      "type": "application/json",
+      "title": "Wind Turbines",
+      "subtitle": "Wind Turbine Detections",
+      "code": "REP6",
+      "id": "Wind_Turbine_Detections",
+      "themes": [
+        "energy-transition"
+      ],
+      "subcode": "REP6",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Wind Energy Assessment"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Green_Roofs_grimpactscore/collection.json",
+      "type": "application/json",
+      "title": "Green Roof Impact Score",
+      "subtitle": "Green Roof Impact Score",
+      "code": "SOL1",
+      "id": "Green_Roofs_grimpactscore",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "subcode": "SOL1",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Green Roofs"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Green_Roofs_lst/collection.json",
+      "type": "application/json",
+      "title": "Max Land Surface Temperature",
+      "subtitle": "Max Land Surface Temperature",
+      "code": "SOL1_1",
+      "id": "Green_Roofs_lst",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "subcode": "SOL1_1",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Green Roofs"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Green_Roofs_grexisting/collection.json",
+      "type": "application/json",
+      "title": "Existing Green Roofs",
+      "subtitle": "Existing Green Roofs",
+      "code": "SOL1_2",
+      "id": "Green_Roofs_grexisting",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "subcode": "SOL1_2",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Green Roofs"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Green_Roofs_grpotential/collection.json",
+      "type": "application/json",
+      "title": "Roofs Suitable for Greening",
+      "subtitle": "Roofs Suitable for Greening",
+      "code": "SOL1_3",
+      "id": "Green_Roofs_grpotential",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "subcode": "SOL1_3",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Green Roofs"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Green_Roofs_grpotrelation/collection.json",
+      "type": "application/json",
+      "title": "Percentage GR-Potential Area in relation to Total Roof Area",
+      "subtitle": "Percentage GR-Potential Area in relation to Total Roof Area",
+      "code": "SOL1_4",
+      "id": "Green_Roofs_grpotrelation",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "subcode": "SOL1_4",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Green Roofs"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Green_Roofs_co2red_05/collection.json",
+      "type": "application/json",
+      "title": "Potential CO2 reduction from green roof slope < 5\u00b0",
+      "subtitle": "Potential annual CO2 reduction due to saved energy from green roof installation slope < 5\u00b0",
+      "code": "SOL1_5",
+      "id": "Green_Roofs_co2red_05",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "subcode": "SOL1_5",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Green Roofs"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Green_Roofs_co2red_20/collection.json",
+      "type": "application/json",
+      "title": "Potential CO2 reduction from green roof slope < 20\u00b0",
+      "subtitle": "Potential annual CO2 reduction due to saved energy from green roof installation slope < 20\u00b0",
+      "code": "SOL1_6",
+      "id": "Green_Roofs_co2red_20",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "subcode": "SOL1_6",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Green Roofs"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Green_Roofs_co2red_45/collection.json",
+      "type": "application/json",
+      "title": "Potential CO2 reduction from green roof slope < 45\u00b0",
+      "subtitle": "Potential annual CO2 reduction due to saved energy from green roof installation slope < 45\u00b0",
+      "code": "SOL1_7",
+      "id": "Green_Roofs_co2red_45",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "subcode": "SOL1_7",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Green Roofs"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Solar_Roofs_high_performance/collection.json",
+      "type": "application/json",
+      "title": "Total electric power production potential - High Performance",
+      "subtitle": "Total electric power production potential - High Performance",
+      "code": "SOL2",
+      "id": "Solar_Roofs_high_performance",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "subcode": "SOL2",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Solar Roofs"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Solar_Roofs_existing_pv/collection.json",
+      "type": "application/json",
+      "title": "Existing photovoltaic panels",
+      "subtitle": "Existing photovoltaic panels",
+      "code": "SOL2_1",
+      "id": "Solar_Roofs_existing_pv",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "subcode": "SOL2_1",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Solar Roofs"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Solar_Roofs_regular_performance/collection.json",
+      "type": "application/json",
+      "title": "Total electric power production potential - Regular Performance",
+      "subtitle": "Total electric power production potential - Regular Performance",
+      "code": "SOL2_2",
+      "id": "Solar_Roofs_regular_performance",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "subcode": "SOL2_2",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Solar Roofs"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Solar_Roofs_low_performance/collection.json",
+      "type": "application/json",
+      "title": "Total electric power production potential - Low Performance",
+      "subtitle": "Total electric power production potential - Low Performance",
+      "code": "SOL2_3",
+      "id": "Solar_Roofs_low_performance",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "subcode": "SOL2_3",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Solar Roofs"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "child",
+      "href": "./Forest_explorer/collection.json",
+      "type": "application/json",
+      "title": "Forest explorer",
+      "subtitle": "Assessment tool",
+      "code": "VTT",
+      "id": "Forest_explorer",
+      "themes": [
+        "eo-adaptation-services"
+      ],
+      "subcode": "VTT",
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "tags": [
+        "Forest Analysis"
+      ],
+      "agency": [
+        "ESA"
+      ]
+    },
+    {
+      "rel": "self",
+      "href": "/home/runner/work/GTIF-catalog/GTIF-catalog/build/GTIF/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "title": "GTIF"
+}

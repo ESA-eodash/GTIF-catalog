@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "584",
+  "properties": {
+    "start_datetime": "2010-01-01T00:00:00Z",
+    "end_datetime": "2022-12-01T00:00:00Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        13.056083,
+        47.076048
+      ]
+    },
+    "properties": {}
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Hydropower SWE monthly"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Hydropower SWE monthly"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    13.046083,
+    47.066048,
+    13.066082999999999,
+    47.086048
+  ],
+  "stac_extensions": [],
+  "collection": "hydro_rep4_2"
+}

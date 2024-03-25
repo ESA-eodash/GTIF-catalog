@@ -1,0 +1,73 @@
+{
+  "type": "Collection",
+  "id": "Dynamic_human_presence_count",
+  "stac_version": "1.0.0",
+  "description": "The Population Count reports the number of people present in each Local Administrative Unit (LAU) during a given hour.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Dynamic human presence count"
+    }
+  ],
+  "subtitle": "Max population count (for day)",
+  "themes": [
+    "mobility-transition"
+  ],
+  "tags": [
+    "Dynamic human presence"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "MOBI1",
+  "title": "Dynamic human presence count",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-03-25T14:27:27.228442Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "SISTEMA"
+    }
+  ],
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/MOBI1_Dynamic_human_presence_users_count/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "type": "Collection",
+  "id": "truck_detections_primary_roads",
+  "stac_version": "1.0.0",
+  "description": "The truck detection indicator was developed within the context of the RACE (Rapid Action for Citizens with EO)] dashboard initiative, initially developed to ascertain an impact of the COVID19 pandemic on truck based logistic routes in Europe. The indicator exploits the parallax effect created by large moving targets in Sentinel-2 (S2) muti-spectral imagery (see details below). The initial indicator was proposed in the context of a competition. Later this algorithm was transformed into a on-demand process that can be triggered within the EuroDataCube marketplace. In the context of GTIF this indicators is also of relevance especially in the mobility transition and how transport and the main logistic corridors, such as the Brenner Pass in Austria, might correlate with air quality indicators derived from Sentinel-5P TROPOMI and other satellites as well as modelling results. The in GTIF integrated truck detection results represent monthly detection heatmaps (produced for motorways and major roads, separately) as well as the individual point detections. Users can draw an area of interest on the heatmap layers to produce time series charts, and the individual detections are visualised along with the corresponding S2 image.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-81201dac-c408-4cf8-b9a5-ca8349e4ab6c/2021/b6dc26b8-387e-4f8c-9fde-b178ec7e03d7.json",
+      "type": "application/json",
+      "datetime": "2021-12-15"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-81201dac-c408-4cf8-b9a5-ca8349e4ab6c/2021/d8b3e97a-786d-4897-8f7a-712f952345a9.json",
+      "type": "application/json",
+      "datetime": "2021-11-15"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-81201dac-c408-4cf8-b9a5-ca8349e4ab6c/2021/8d6fceab-4889-4606-94cc-a720cfc43dfc.json",
+      "type": "application/json",
+      "datetime": "2021-10-15"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-81201dac-c408-4cf8-b9a5-ca8349e4ab6c/2021/04e9bfbb-a8f7-4b5c-b3fe-09c5264fdd25.json",
+      "type": "application/json",
+      "datetime": "2021-09-15"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-81201dac-c408-4cf8-b9a5-ca8349e4ab6c/2021/346c6326-b922-406b-895e-a23a140fced1.json",
+      "type": "application/json",
+      "datetime": "2021-08-15"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-81201dac-c408-4cf8-b9a5-ca8349e4ab6c/2021/d239685e-3721-4818-b6e2-660a3fdc40a7.json",
+      "type": "application/json",
+      "datetime": "2021-07-15"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-81201dac-c408-4cf8-b9a5-ca8349e4ab6c/2021/1301513c-9a9f-4a28-91b6-c199b1c1374f.json",
+      "type": "application/json",
+      "datetime": "2021-06-15"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-81201dac-c408-4cf8-b9a5-ca8349e4ab6c/2021/77fa1360-8a1c-4272-b4f5-e01b637ac49d.json",
+      "type": "application/json",
+      "datetime": "2021-05-15"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-81201dac-c408-4cf8-b9a5-ca8349e4ab6c/2021/301efcc5-cbd9-4125-ad69-6cc0a0df417d.json",
+      "type": "application/json",
+      "datetime": "2021-04-15"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-81201dac-c408-4cf8-b9a5-ca8349e4ab6c/2021/6e078c2b-5acb-4484-bac8-63a142d793dd.json",
+      "type": "application/json",
+      "datetime": "2021-03-15"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-81201dac-c408-4cf8-b9a5-ca8349e4ab6c/2021/9dcde6c4-c4dc-48a3-b3fd-0846dfa7697a.json",
+      "type": "application/json",
+      "datetime": "2021-02-15"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-81201dac-c408-4cf8-b9a5-ca8349e4ab6c/2021/ccfc30cb-c14f-4534-8e64-2a50416e8ec7.json",
+      "type": "application/json",
+      "datetime": "2021-01-15"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-81201dac-c408-4cf8-b9a5-ca8349e4ab6c/2020/0c133363-05ed-49a3-80ee-1597031ecf78.json",
+      "type": "application/json",
+      "datetime": "2020-12-15"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-81201dac-c408-4cf8-b9a5-ca8349e4ab6c/2020/3e1aa668-e278-42c4-83fb-d3ac8c9f7d43.json",
+      "type": "application/json",
+      "datetime": "2020-11-15"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-81201dac-c408-4cf8-b9a5-ca8349e4ab6c/2020/a9065b5a-e865-44b8-9f36-d2f9304cf136.json",
+      "type": "application/json",
+      "datetime": "2020-10-15"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-81201dac-c408-4cf8-b9a5-ca8349e4ab6c/2020/86163217-a463-491d-ba28-649952001fc0.json",
+      "type": "application/json",
+      "datetime": "2020-09-15"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-81201dac-c408-4cf8-b9a5-ca8349e4ab6c/2020/62cf72d7-e01d-401e-9709-55c37f4fa7eb.json",
+      "type": "application/json",
+      "datetime": "2020-08-15"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-81201dac-c408-4cf8-b9a5-ca8349e4ab6c/2020/b89839d5-d658-4f9e-8730-2122f76d69f2.json",
+      "type": "application/json",
+      "datetime": "2020-07-15"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-81201dac-c408-4cf8-b9a5-ca8349e4ab6c/2020/4e91c732-acad-47e7-a558-05c7e0daa0e6.json",
+      "type": "application/json",
+      "datetime": "2020-06-15"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-81201dac-c408-4cf8-b9a5-ca8349e4ab6c/2020/f78275f4-6bd4-4f9f-b6f8-467fcafc3304.json",
+      "type": "application/json",
+      "datetime": "2020-05-15"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-81201dac-c408-4cf8-b9a5-ca8349e4ab6c/2020/f0b2b2bb-8e24-4d3e-9dad-3aa8af49352a.json",
+      "type": "application/json",
+      "datetime": "2020-04-15"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-81201dac-c408-4cf8-b9a5-ca8349e4ab6c/2020/a02f81d7-fedc-40ce-b26a-6267ae217627.json",
+      "type": "application/json",
+      "datetime": "2020-03-15"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-81201dac-c408-4cf8-b9a5-ca8349e4ab6c/2020/65fceeb7-2aec-40a3-a136-f2d864fa8ae9.json",
+      "type": "application/json",
+      "datetime": "2020-02-15"
+    },
+    {
+      "rel": "item",
+      "href": "./byoc-81201dac-c408-4cf8-b9a5-ca8349e4ab6c/2020/c462af40-5e7c-4c0b-9492-d3f0065bdca8.json",
+      "type": "application/json",
+      "datetime": "2020-01-15"
+    },
+    {
+      "rel": "license",
+      "href": "http://www.opensource.org/licenses/MIT",
+      "type": "text/html"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Moving truck detections Primary Roads"
+    }
+  ],
+  "subtitle": "Moving truck detections Primary Roads",
+  "themes": [
+    "mobility-transition"
+  ],
+  "tags": [
+    "Moving Truck Detections"
+  ],
+  "satellite": [
+    "Sentinel-2"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E12d",
+  "endpointtype": "Sentinel Hub_byoc",
+  "title": "Moving truck detections Primary Roads",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-15T00:00:00Z",
+          "2021-12-15T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "MIT",
+  "providers": [
+    {
+      "name": "placeholder"
+    }
+  ],
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E12d_truck_detections_motorways_GTIF/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E12d_truck_detections_primary_roads_GTIF/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

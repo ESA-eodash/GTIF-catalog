@@ -1,0 +1,109 @@
+{
+  "type": "Collection",
+  "id": "Forest_explorer",
+  "stac_version": "1.0.0",
+  "description": "The forest parameter values are outputs of a data assimilation process combining EO-based estimates and a process based growth model initiated with EO based forest structure estimates and meteorological data. These prototype products have been created with limited input datasets and have not been validated. They should be considered merely as examples of the types of products that can be created.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "child",
+      "href": "./Forest_explorer/collection.json",
+      "type": "application/json",
+      "title": "Forest explorer",
+      "subtitle": "Assessment tool",
+      "code": "VTT",
+      "id": "Forest_explorer",
+      "themes": [
+        "eo-adaptation-services"
+      ],
+      "tags": [
+        "Forest Analysis"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "VTT"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    }
+  ],
+  "subtitle": "Assessment tool",
+  "themes": [
+    "eo-adaptation-services"
+  ],
+  "tags": [
+    "Forest Analysis"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "VTT",
+  "title": "Forest explorer",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ],
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-09-01T00:00:00Z",
+          "2022-08-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "placeholder"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "VTT"
+    ],
+    "themes": [
+      "eo-adaptation-services"
+    ],
+    "satellite": [
+      "placeholder"
+    ],
+    "sensor": [
+      "placeholder"
+    ]
+  }
+}

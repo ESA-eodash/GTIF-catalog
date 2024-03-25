@@ -1,0 +1,70 @@
+{
+  "type": "Collection",
+  "id": "Micro_Hydropower",
+  "stac_version": "1.0.0",
+  "description": "#### TIPS ON USING THIS TOOL\nUse this tool to select specific locations and find out detailed estimated data, ranging from flow rate up to estimated annual power production potential.\n\n\n#### WHY THIS DATA\nClose to 300 locations for potential run-of-river hydroelectricity generation plants were identified in Austria by utilizing geospatial techniques to analyze hydrological data from Terra Climate and terrain data from Copernicus DEM. The potential power generation capacity for the identified locations ranges from around 5 kW to around 5 mW.\n\n**Developed with**  \n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/gtif-logos/dhi_row.png)\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "item",
+      "href": "./Micro_Hydropower/2023/2023-01-01.json",
+      "type": "application/json",
+      "datetime": "2023-01-01"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Micro Hydropower"
+    }
+  ],
+  "subtitle": "Micro Hydropower",
+  "themes": [
+    "energy-transition"
+  ],
+  "tags": [
+    "Micro Hydropower tools"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "REP5",
+  "title": "Micro Hydropower",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-01-01T00:00:00Z",
+          "2023-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "placeholder"
+    }
+  ]
+}

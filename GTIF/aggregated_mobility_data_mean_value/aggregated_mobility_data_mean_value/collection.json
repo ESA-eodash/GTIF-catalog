@@ -1,0 +1,73 @@
+{
+  "type": "Collection",
+  "id": "aggregated_mobility_data_mean_value",
+  "stac_version": "1.0.0",
+  "description": "",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Mean value"
+    }
+  ],
+  "subtitle": "Air Quality Mobility correlation [\u00b5g/m\u00b3]",
+  "themes": [
+    "mobility-transition"
+  ],
+  "tags": [
+    "Mobility - Air Quality Correlation"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "AQ1_2",
+  "title": "Mean value",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-03-25T14:27:18.794715Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "SISTEMA"
+    }
+  ],
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/AQ1_aggregated_mobility_data_mean_value/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

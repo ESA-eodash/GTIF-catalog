@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "2021-11-01",
+  "properties": {
+    "datetime": "2021-11-01T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Forest explorer"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Forest explorer"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    11,
+    46.5,
+    15.5,
+    48.9
+  ],
+  "stac_extensions": [],
+  "collection": "Forest_explorer"
+}

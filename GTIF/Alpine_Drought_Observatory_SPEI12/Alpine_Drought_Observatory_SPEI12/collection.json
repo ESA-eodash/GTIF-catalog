@@ -1,0 +1,73 @@
+{
+  "type": "Collection",
+  "id": "Alpine_Drought_Observatory_SPEI12",
+  "stac_version": "1.0.0",
+  "description": "#### HOW TO USE THIS TOOL\n\nUse this tool to visualise daily values of the Standardized Precipitation Index (SPI) and compare different dates.\n\n#### WHY THIS DATA\n\nThe Standardized Precipitation Index (SPI) represents a standardized measure of what a certain amount of precipitation over the selected time period means in relation to expected amount of precipitation for this period. SPI is used on different time scales (1, 2, 3, 6, 12 months). A new variation of SPI - the Standard Precipitation and Evapotranspiration Index (SPEI) - has been developed (Vicente-Serrano et al., 2010), which includes precipitation and temperature, in order to identify increases in drought severity linked with higher water demand by evapotranspiration.\nClick on a feature on the map to see an extended time series.\nData from https://ado.eurac.edu/\n\n\n**Developed with**  \n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/gtif-logos/ado_row.jpg)\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "SPEI12"
+    }
+  ],
+  "subtitle": "Alpine Drought Observatory SPEI12",
+  "themes": [
+    "eo-adaptation-services"
+  ],
+  "tags": [
+    "Alpine Drought Observatory"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "ADO_3",
+  "title": "SPEI12",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-03-25T14:27:18.439920Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "placeholder"
+    }
+  ],
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/ADO_Alpine_Drought_Observatory/ADO_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

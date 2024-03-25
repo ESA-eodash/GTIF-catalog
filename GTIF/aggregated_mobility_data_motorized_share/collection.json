@@ -1,0 +1,118 @@
+{
+  "type": "Collection",
+  "id": "aggregated_mobility_data_motorized_share",
+  "stac_version": "1.0.0",
+  "description": "Click on a bin on the map to display a scatterplot of your currently selected parameter against Sentinel5-p measurements. \n\n*Disclaimer*  \nThis tool allows exploring potential correlations between Sentinel-5P/TROPOMI measurements and human mobility data, with the objective to better understand how people's movement and mobility affects air quality parameters.\nFor this purpose, both data sources were aggregated to the same spatial grid. For the air quality parameters daily S-5P observations were used. For the mobility data, only observations that preceded the S-5P observation by four hours was considered. Four hours is the typical time that NO2 can remain in the atmosphere and thus be detected.\nThe mobility data only captures around 22% of the population and is then calibrated with population presence and density. Thus, it is one form of capturing people\u2019s movement but likely not the most suitable. Consequently, estimates provided for Number of Trajectories, Congestion Index, Speed, Motorized Count, and Motorized Share may not be reflecting the reality of mobility on the ground with very high precision.\nBeing a demonstrator on how to integrate and interactively compare air quality parameters versus mobility statistics, further validation is needed to be able to allow meaningful conclusions.\n\n**Developed with**  \n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/gtif-logos/sistema-mindearth-geosphere.png)\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "child",
+      "href": "./aggregated_mobility_data_motorized_share/collection.json",
+      "type": "application/json",
+      "title": "Motorized share",
+      "subtitle": "Air Quality Mobility correlation",
+      "code": "AQ1_6",
+      "id": "aggregated_mobility_data_motorized_share",
+      "themes": [
+        "mobility-transition"
+      ],
+      "tags": [
+        "Mobility - Air Quality Correlation"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "AQ1_6"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    }
+  ],
+  "subtitle": "Air Quality Mobility correlation",
+  "themes": [
+    "mobility-transition"
+  ],
+  "tags": [
+    "Mobility - Air Quality Correlation"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "AQ1_6",
+  "title": "Motorized share",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ],
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-03-25T14:27:19.178054Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "SISTEMA"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "AQ1_6"
+    ],
+    "themes": [
+      "mobility-transition"
+    ],
+    "satellite": [
+      "placeholder"
+    ],
+    "sensor": [
+      "placeholder"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/AQ1_aggregated_mobility_data_motorized_share/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

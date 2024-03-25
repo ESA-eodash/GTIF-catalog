@@ -1,0 +1,79 @@
+{
+  "type": "Collection",
+  "id": "Green_Roofs_co2red_05",
+  "stac_version": "1.0.0",
+  "description": "#### HOW TO USE THIS TOOL\n\nVisualise the potential annual CO2 reduction due to saved energy from green roof installation in roof(-part)s with slope < 5\u00b0 in tons/year.  \n*Disclaimer*: Numbers are to be considered as a best guess approximation derived by exploiting the figures reported in: Kuronuma T, Watanabe H, Ishihara T, et al. CO2 Payoff of extensive green roofs with different vegetation species. Sustain. 2018;10(7):1-12. doi:10.3390/su10072256.\n\nUse this tool to visualise the scatterplot of Green roof potential [km^2] in relation to existing Green roofs [km^2] for a selected administrative unit (it currently applies to Zahlsprengel level).\n\n\n#### WHY THIS DATA\n\nGreen Roofs (GR) products are a cutting-edge solution for mapping and quantifying the presence of green roofs on buildings. These products are based on the latest available airborne imagery with a spatial resolution of 20 cm, providing a high degree of detail and precision. Green roofs are an effective measure in reducing atmospheric carbon dioxide (CO2) concentrations due to their ability to decrease energy consumption of buildings and sequester carbon within the plants and substrates. Additionally, GRs have been shown to mitigate the effects of the urban heat island (UHI) phenomenon, which is characterized by elevated surface temperatures in urban areas compared to their rural surroundings. The quantification of the presence and distribution of GRs through the utilization of Green Roof products is of crucial importance for the assessment of their ability to reduce energy consumption and decrease the carbon footprint of buildings. Furthermore, the ability to map GRs in a given area provides valuable insights into their potential to mitigate UHI effects, thereby contributing to the sustainability of urban environments.\n\n**Developed with**  \n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/gtif-logos/dlr_row.jpg)\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "item",
+      "href": "./Green_Roofs_co2red_05/2023/2023-01-01.json",
+      "type": "application/json",
+      "datetime": "2023-01-01"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Potential CO2 reduction from green roof slope < 5\u00b0"
+    }
+  ],
+  "subtitle": "Potential annual CO2 reduction due to saved energy from green roof installation slope < 5\u00b0",
+  "themes": [
+    "sustainable-cities"
+  ],
+  "tags": [
+    "Green Roofs"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "SOL1_5",
+  "title": "Potential CO2 reduction from green roof slope < 5\u00b0",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-01-01T00:00:00Z",
+          "2023-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "placeholder"
+    }
+  ],
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SOL1_5_Green_Roofs_co2red_05/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

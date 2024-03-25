@@ -1,0 +1,50 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "560",
+  "properties": {
+    "start_datetime": "2016-01-02T00:00:00Z",
+    "end_datetime": "2022-12-24T00:00:00Z",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        15.030696,
+        46.68386
+      ]
+    },
+    "properties": {}
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Hydropower Storage Change"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Hydropower Storage Change"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    15.020696000000001,
+    46.673860000000005,
+    15.040696,
+    46.69386
+  ],
+  "stac_extensions": [],
+  "collection": "hydro_rep4_6"
+}

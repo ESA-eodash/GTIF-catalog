@@ -1,0 +1,73 @@
+{
+  "type": "Collection",
+  "id": "health_risk_index",
+  "stac_version": "1.0.0",
+  "description": "The Aggregate Risk Index (ARI) is an index that provides a measure of the health outcome-specific risk due to the short-term exposure to multiple air pollutants (PM10, PM2.5, NO2, SO2 and O3). It is derived by additively summing the product of pollutant concentration weighted using health outcome-specific Relative Risk factors of increased mortality due to all causes, provided by the World Health Organization. The values displayed on the platform represent the geographical mean values of the daily average for each Local Administrative Unit (LAU)\n\nSelecting the single LAU it is possible to visualize in the \"ANALYSIS\" box the respective time series of ARI.\n\nMore info about the ARI index can be found here:\n\n * [What are the WHO Air quality guidelines?](https://www.who.int/news-room/feature-stories/detail/what-are-the-who-air-quality-guidelines)\n * [Health Advice ARI | AQ map (dlr.de)](https://www.wdc.dlr.de/AlpAirEO/healthadvARI)\n\n<div style=\"width:100%; height:20px;\"></div>\n <div style=\"margin-left: 10px; margin-right: 10px; width: 100%; font-size:0.8em;\">\n <br/>\n<table id=\"health_table\" style=\"border: 1px solid; border-collapse: collapse;\"><tbody><tr><td colspan=\"3\">\n  Increased health risk from current air pollution and health advice for the general population (age classes 15 to 64, without pre-existing conditions)\n</td>\n</tr><tr><th>ARI</th>\n<th>Increased health risk from current air pollution</th>\n<th>Health advice and preventive measures</th>\n</tr><tr><td id=\"ARI0\" style=\"background-color:#4a834a;\">0</td>\n<td rowspan=\"4\">low</td>\n<td rowspan=\"4\" id=\"health_table_text\">Ideal conditions for outdoor activities.</td>\n</tr><tr><td id=\"ARI1\" style=\"background-color:#4ac14a;\">1</td>\n</tr><tr><td id=\"ARI2\" style=\"background-color:#8ae049;\">2</td>\n</tr><tr><td id=\"ARI3\" style=\"background-color:#ccec49;\">3</td>\n</tr><tr><td id=\"ARI4\" style=\"background-color:#fae94c;\">4</td>\n<td rowspan=\"3\">moderate</td>\n<td rowspan=\"3\" id=\"health_table_text\">No need to modify your usual outdoor activities unless you experience symptoms.</td>\n</tr><tr><td id=\"ARI5\" style=\"background-color:#febf4c;\">5</td>\n</tr><tr><td id=\"ARI6\" style=\"background-color:#fe934c;\">6</td>\n</tr><tr><td id=\"ARI7\" style=\"background-color:#f23a00;\">7</td>\n<td rowspan=\"3\">high</td>\n<td rowspan=\"3\" id=\"health_table_text\">Anyone experiencing discomfort such as coughing or throat irritation should consider reducing or rescheduling strenuous outdoor activities to periods when the index is lower.</td>\n</tr><tr><td id=\"ARI8\" style=\"background-color:#c40025;\">8</td>\n</tr><tr><td id=\"ARI9\" style=\"background-color:#a2001f;\">9</td>\n</tr><tr><td id=\"ARI10\" style=\"background-color:#600030;\">10</td>\n<td>very high</td>\n<td id=\"health_table_text\">Health alert!\n<p>Everyone may experience more serious health effects.</p>\n<p>Everyone should reduce or reschedule physical exertion, particularly outdoor activities to times when the index is lower.</p>\n<p>If you feel uncomfortable, contact your doctor or general practitioner.</p></td>\n</tr></tbody></table>\n\n</div>",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Health Risk Index (ARI)"
+    }
+  ],
+  "subtitle": "Daily aggregated maps of ARI index",
+  "themes": [
+    "mobility-transition"
+  ],
+  "tags": [
+    "Air Quality Health"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "AQA",
+  "title": "Health Risk Index (ARI)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-03-25T14:27:20.352146Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "SISTEMA"
+    }
+  ],
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/AQA_health_risk_index/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

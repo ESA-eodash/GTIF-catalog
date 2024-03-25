@@ -1,0 +1,55 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "2020-11-04T00:00:00",
+  "properties": {
+    "datetime": "2020-11-04T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "wms",
+      "href": "https://snow-app-gte2s.hub.eox.at/",
+      "type": "image/jpeg",
+      "title": "Snow_water_equivalent",
+      "wms:layers": [
+        "SWE"
+      ],
+      "role": [
+        "data"
+      ],
+      "wms:dimensions": {
+        "TIME": "2020-11-04T00:00:00"
+      }
+    },
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Snow water equivalent"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Snow water equivalent"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    11,
+    46.5,
+    15.5,
+    48.9
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/web-map-links/v1.1.0/schema.json"
+  ],
+  "collection": "Snow_water_equivalent"
+}

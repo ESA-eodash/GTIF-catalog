@@ -1,0 +1,123 @@
+{
+  "type": "Collection",
+  "id": "Hydro_LAC_Curve",
+  "stac_version": "1.0.0",
+  "description": "#### TIPS ON USING THIS TOOL\nUse this tool to select a point of interest on the map and see the level area height curve for a specific location.\n\n#### WHY THIS DATA\nThe hydro power (reservoir) tool is used to present reservoir surface area, level and storage changes. First, we analyze individual reservoirs extracting water area from pre-processed optical and SAR satellite imageries using a machine learning algorithm. After outlier filtering and post-process, the timeseries graph are constructed for each individual reservoir. Where there is a cross-section with Sentinel 3A/B orbits the reservoir water levels are directly obtained from satellite altimetry. Where only SWE time series exist the storage level is estimated based on the nominal change in surface water area.\n\n**Developed with**  \n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/gtif-logos/dhi_row.png)\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "child",
+      "href": "./hydro_rep4_5/collection.json",
+      "type": "application/json",
+      "title": "Hydropower Level Area Height Curve",
+      "endpointtype": "GeoDB",
+      "subtitle": "Level-Area-Height curve (LAC) monthly",
+      "code": "REP4_5",
+      "id": "Hydro_LAC_Curve",
+      "themes": [
+        "energy-transition"
+      ],
+      "cities": [
+        null
+      ],
+      "countries": [
+        null
+      ],
+      "yAxis": "Height [m]",
+      "tags": [
+        "Hydropower assessment"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "REP4_5"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    }
+  ],
+  "subtitle": "Level-Area-Height curve (LAC) monthly",
+  "themes": [
+    "energy-transition"
+  ],
+  "tags": [
+    "Hydropower assessment"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "REP4_5",
+  "title": "Hydropower Level Area Height Curve",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          10.067758,
+          46.673860000000005,
+          15.040696,
+          47.538261999999996
+        ],
+        [
+          10.067758,
+          46.673860000000005,
+          15.040696,
+          47.538261999999996
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-01-17T00:00:00Z",
+          "2022-12-17T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "placeholder"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "REP4_5"
+    ],
+    "themes": [
+      "energy-transition"
+    ],
+    "satellite": [
+      "placeholder"
+    ],
+    "sensor": [
+      "placeholder"
+    ],
+    "cities": [
+      null
+    ],
+    "countries": [
+      null
+    ]
+  }
+}

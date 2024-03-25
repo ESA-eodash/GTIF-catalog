@@ -1,0 +1,119 @@
+{
+  "type": "Collection",
+  "id": "Snowdepth",
+  "stac_version": "1.0.0",
+  "description": "#### HOW TO USE THIS TOOL\n\nVisualise the snow depth values at various points in time. Save a specific date as custom layer to visualise it in another GTIF tool.\n\n#### WHY THIS DATA \n\nThis data have been produced within the [eo4alps project](https://snow-app-gte2s.hub.eox.at/), which focuses on implementing a\nhigh-resolution quasi real-time snow monitoring to improve water resource management.\n\nIt is taking advantage of the recent developments in physically-based snow modelling and is based on high-resolution optical and radar EO missions such as Sentinel-1 and 2.\n\nThe core service is a snow water equivalent (SWE) product generated using a cloud based processing environment to be delivered over the entire Alpine arc region. The eo4alps team is planning to engage users from public and private sectors, such as public agencies, research\ncenters, associations and hydropower companies.\n\nDeveloped with\n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EO4A_Snowdepth/eo4alps_row.png)\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "child",
+      "href": "./Snowdepth/collection.json",
+      "type": "application/json",
+      "title": "Snowdepth",
+      "endpointtype": "WMS_OverwriteTimes",
+      "subtitle": "Snowdepth EO4Alps",
+      "code": "EO4A",
+      "id": "Snowdepth",
+      "themes": [
+        "eo-adaptation-services"
+      ],
+      "tags": [
+        "EO4Alps"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "EO4A"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    }
+  ],
+  "subtitle": "Snowdepth EO4Alps",
+  "themes": [
+    "eo-adaptation-services"
+  ],
+  "tags": [
+    "EO4Alps"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "EO4A",
+  "title": "Snowdepth",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ],
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-10-01T00:00:00Z",
+          "2022-06-30T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "placeholder"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "EO4A"
+    ],
+    "themes": [
+      "eo-adaptation-services"
+    ],
+    "satellite": [
+      "placeholder"
+    ],
+    "sensor": [
+      "placeholder"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/EO4A_Snowdepth/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

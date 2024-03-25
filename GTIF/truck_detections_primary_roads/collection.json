@@ -1,0 +1,131 @@
+{
+  "type": "Collection",
+  "id": "truck_detections_primary_roads",
+  "stac_version": "1.0.0",
+  "description": "The truck detection indicator was developed within the context of the RACE (Rapid Action for Citizens with EO)] dashboard initiative, initially developed to ascertain an impact of the COVID19 pandemic on truck based logistic routes in Europe. The indicator exploits the parallax effect created by large moving targets in Sentinel-2 (S2) muti-spectral imagery (see details below). The initial indicator was proposed in the context of a competition. Later this algorithm was transformed into a on-demand process that can be triggered within the EuroDataCube marketplace. In the context of GTIF this indicators is also of relevance especially in the mobility transition and how transport and the main logistic corridors, such as the Brenner Pass in Austria, might correlate with air quality indicators derived from Sentinel-5P TROPOMI and other satellites as well as modelling results. The in GTIF integrated truck detection results represent monthly detection heatmaps (produced for motorways and major roads, separately) as well as the individual point detections. Users can draw an area of interest on the heatmap layers to produce time series charts, and the individual detections are visualised along with the corresponding S2 image.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "child",
+      "href": "./truck_detections_primary_roads/collection.json",
+      "type": "application/json",
+      "title": "Moving truck detections Primary Roads",
+      "endpointtype": "Sentinel Hub_byoc",
+      "subtitle": "Moving truck detections Primary Roads",
+      "code": "E12d",
+      "id": "truck_detections_primary_roads",
+      "themes": [
+        "mobility-transition"
+      ],
+      "tags": [
+        "Moving Truck Detections"
+      ],
+      "satellite": [
+        "Sentinel-2"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "E12d"
+    },
+    {
+      "rel": "license",
+      "href": "http://www.opensource.org/licenses/MIT",
+      "type": "text/html"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    }
+  ],
+  "subtitle": "Moving truck detections Primary Roads",
+  "themes": [
+    "mobility-transition"
+  ],
+  "tags": [
+    "Moving Truck Detections"
+  ],
+  "satellite": [
+    "Sentinel-2"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "E12d",
+  "title": "Moving truck detections Primary Roads",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -10.992084166217008,
+          41.61426609346718,
+          23.657514555735247,
+          61.17861322061405
+        ],
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-01-15T00:00:00Z",
+          "2021-12-15T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "MIT",
+  "providers": [
+    {
+      "name": "placeholder"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "E12d"
+    ],
+    "themes": [
+      "mobility-transition"
+    ],
+    "satellite": [
+      "Sentinel-2"
+    ],
+    "sensor": [
+      "placeholder"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E12d_truck_detections_motorways_GTIF/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "thumbnail": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E12d_truck_detections_primary_roads_GTIF/thumbnail.png",
+      "type": "image/png",
+      "roles": [
+        "thumbnail"
+      ]
+    }
+  }
+}

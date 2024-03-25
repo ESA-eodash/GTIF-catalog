@@ -1,0 +1,79 @@
+{
+  "type": "Collection",
+  "id": "Wind_Energy_200m",
+  "stac_version": "1.0.0",
+  "description": "#### TIPS ON USING THIS TOOL\nUse this tool to explore site suitability to create new wind farms. You can filter the wind power density information depending on topography (elevation, slope, ruggedness),  distances to settlements and to the energy grid, presence of protected areas. Once all filters are set, you can export the information for the administrative area you select at Zahlsprengel level into a geojason file for your further analyses. You can also create and download a report giving an overview of the analysis you performed. \n\n\n#### WHY THIS DATA\n*Wind Power Density* - The wind power density (w m 2 ) is a measure of the available wind resource. Higher wind power density indicates greater wind power potential. \n\n*Distance to Settlement* - Each federal province in Austria has distance requirements between wind turbines and settlements. Increase the minimum distance to select areas further from settlements, you can chose between two distance layers:  \n- WSF: the distance to settlements is based on the World Settlement Footprint (product obtained from satellite data)  \n- Austrian Cadaster: the distance to settlements layer is based on the national Austrian cadaster data\n  \n\n*Distance to transmission network* - Wind turbines are optimally placed close to the existing transmission network. Reduce this distance to select areas closer to the network.  \n\n*Protected areas* - Conservation areas such as Natura 2000 sites and Nationally designated areas are protected, and should be avoided when positioning wind turbines.  \n\n*Slope* - Generally, flatter terrain is preferred for wind turbine locations. Typical suitability studies choose land with slope of less than 15-20 degrees.  \n\n*Elevation* - Generally, lower elevation areas are preferred for turbine locations. Selecting areas below 2,000 m avoids many mountainous and inaccessible areas.  \n\n*RIX* - The Ruggedness Index is a measure of the steepness of the terrain in the surrounding area. Uncertainty in wind density estimates increase with higher RIX values.  \n\n**Developed with**  \n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/gtif-logos/dhi_row.png)\n\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "item",
+      "href": "./Wind_Energy_200m/2023/2023-01-01.json",
+      "type": "application/json",
+      "datetime": "2023-01-01"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Wind Energy Assessment at 200m height"
+    }
+  ],
+  "subtitle": "Site Suitability Assessment & Trade-off Explorer",
+  "themes": [
+    "energy-transition"
+  ],
+  "tags": [
+    "Wind Energy Assessment"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "REP1",
+  "title": "Wind Energy Assessment at 200m height",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-01-01T00:00:00Z",
+          "2023-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "placeholder"
+    }
+  ],
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/REP1_Wind_Energy/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

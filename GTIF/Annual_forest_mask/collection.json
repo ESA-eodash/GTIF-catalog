@@ -1,0 +1,118 @@
+{
+  "type": "Collection",
+  "id": "Annual_forest_mask",
+  "stac_version": "1.0.0",
+  "description": "The forest mask classification output is based on a limited amount of training data, which is unlikely to represent all possible phenological conditions or forest structure types. This prototype is not validated and should therefore be considered as an example of the type of product which could be created based on the implemented methodology and training data available so far.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "child",
+      "href": "./Annual_forest_mask/collection.json",
+      "type": "application/json",
+      "title": "Annual forest mask",
+      "subtitle": "Annual forest mask",
+      "code": "FCM3",
+      "id": "Annual_forest_mask",
+      "themes": [
+        "carbon-accounting"
+      ],
+      "tags": [
+        "Forest Analysis"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "FCM3"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    }
+  ],
+  "subtitle": "Annual forest mask",
+  "themes": [
+    "carbon-accounting"
+  ],
+  "tags": [
+    "Forest Analysis"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "FCM3",
+  "title": "Annual forest mask",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ],
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-09-01T00:00:00Z",
+          "2022-09-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "placeholder"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "FCM3"
+    ],
+    "themes": [
+      "carbon-accounting"
+    ],
+    "satellite": [
+      "placeholder"
+    ],
+    "sensor": [
+      "placeholder"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/FCM3_Annual_forest_mask/FCM_forest_mask.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

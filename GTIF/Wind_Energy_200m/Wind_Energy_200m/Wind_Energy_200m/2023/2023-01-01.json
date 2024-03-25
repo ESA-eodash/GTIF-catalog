@@ -1,0 +1,38 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "2023-01-01",
+  "properties": {
+    "datetime": "2023-01-01T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "collection",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Wind Energy Assessment at 200m height"
+    },
+    {
+      "rel": "parent",
+      "href": "../../collection.json",
+      "type": "application/json",
+      "title": "Wind Energy Assessment at 200m height"
+    }
+  ],
+  "assets": {},
+  "bbox": [
+    11,
+    46.5,
+    15.5,
+    48.9
+  ],
+  "stac_extensions": [],
+  "collection": "Wind_Energy_200m"
+}

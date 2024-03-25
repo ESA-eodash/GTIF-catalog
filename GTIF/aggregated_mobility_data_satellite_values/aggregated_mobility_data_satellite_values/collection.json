@@ -1,0 +1,73 @@
+{
+  "type": "Collection",
+  "id": "aggregated_mobility_data_satellite_values",
+  "stac_version": "1.0.0",
+  "description": "One of the variables which is linked to pollutant sectors such as traffic and industrial activities is the tropospheric nitrogen dioxide (NO2). This data are collected daily worldwide by the Copernicus Sentinel 5P satellite.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Sentinel5-p NO2"
+    }
+  ],
+  "subtitle": "Air Quality Mobility correlation [\u00b5mol/m\u00b2]",
+  "themes": [
+    "mobility-transition"
+  ],
+  "tags": [
+    "Mobility - Air Quality Correlation"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "AQ1_1",
+  "title": "Sentinel5-p NO2",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-03-25T14:27:18.674001Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "SISTEMA"
+    }
+  ],
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/AQ1_aggregated_mobility_data_satellite_values/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

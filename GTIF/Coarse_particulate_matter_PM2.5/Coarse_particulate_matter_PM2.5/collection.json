@@ -1,0 +1,73 @@
+{
+  "type": "Collection",
+  "id": "Coarse_particulate_matter_PM2.5",
+  "stac_version": "1.0.0",
+  "description": "Particulate Matter with diameters less than 2.5\u00b5m - mass concentration in \u00b5g/m\u00b3 obtained daily from the Copernicus Atmosphere Monitoring Service (CAMS) European air quality forecasts dataset.The value displayed on the platform represents the geographical mean and maxima values of the daily average pollutant concentration for each Local Administrative Unit (LAU)\n\nSelecting the single LAU it is possible to visualize in the \"ANALYSIS\" box the respective time series of PM2.5.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Fine particulate matter (PM2.5)"
+    }
+  ],
+  "subtitle": "Daily aggregated maps of PM2.5 concentration",
+  "themes": [
+    "mobility-transition"
+  ],
+  "tags": [
+    "Air Quality Health"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "AQC",
+  "title": "Fine particulate matter (PM2.5)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-03-25T14:27:20.603462Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "SISTEMA"
+    }
+  ],
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/AQC_Coarse_particulate_matter_PM25/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

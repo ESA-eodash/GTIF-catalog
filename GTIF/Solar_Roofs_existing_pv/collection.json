@@ -1,0 +1,118 @@
+{
+  "type": "Collection",
+  "id": "Solar_Roofs_existing_pv",
+  "stac_version": "1.0.0",
+  "description": "#### HOW TO USE THIS TOOL\n\nVisualise the mapping of roofs which have a PV panel on top.\n\n**Developed with**  \n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/gtif-logos/dlr_row.jpg)\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "child",
+      "href": "./Solar_Roofs_existing_pv/collection.json",
+      "type": "application/json",
+      "title": "Existing photovoltaic panels",
+      "subtitle": "Existing photovoltaic panels",
+      "code": "SOL2_1",
+      "id": "Solar_Roofs_existing_pv",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Solar Roofs"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "SOL2_1"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    }
+  ],
+  "subtitle": "Existing photovoltaic panels",
+  "themes": [
+    "sustainable-cities"
+  ],
+  "tags": [
+    "Solar Roofs"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "SOL2_1",
+  "title": "Existing photovoltaic panels",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ],
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-01-01T00:00:00Z",
+          "2023-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "placeholder"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "SOL2_1"
+    ],
+    "themes": [
+      "sustainable-cities"
+    ],
+    "satellite": [
+      "placeholder"
+    ],
+    "sensor": [
+      "placeholder"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SOL2_1_Solar_Roofs_pv_existing/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

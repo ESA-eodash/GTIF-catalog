@@ -1,0 +1,109 @@
+{
+  "type": "Collection",
+  "id": "Wind_Turbine_Detections",
+  "stac_version": "1.0.0",
+  "description": "Wind turbines detected using Sentinel-2 data (period Autumn 2022 - Spring 2023) and a state-of-the-art object detection neural network.\n\n**Developed with**  \n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/gtif-logos/dhi_row.png)\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "child",
+      "href": "./Wind_Turbine_Detections/collection.json",
+      "type": "application/json",
+      "title": "Wind Turbines",
+      "subtitle": "Wind Turbine Detections",
+      "code": "REP6",
+      "id": "Wind_Turbine_Detections",
+      "themes": [
+        "energy-transition"
+      ],
+      "tags": [
+        "Wind Energy Assessment"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "REP6"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    }
+  ],
+  "subtitle": "Wind Turbine Detections",
+  "themes": [
+    "energy-transition"
+  ],
+  "tags": [
+    "Wind Energy Assessment"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "REP6",
+  "title": "Wind Turbines",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ],
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-01-01T00:00:00Z",
+          "2023-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "placeholder"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "REP6"
+    ],
+    "themes": [
+      "energy-transition"
+    ],
+    "satellite": [
+      "placeholder"
+    ],
+    "sensor": [
+      "placeholder"
+    ]
+  }
+}

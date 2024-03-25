@@ -1,0 +1,118 @@
+{
+  "type": "Collection",
+  "id": "Nitrogen_Dioxide_S5P",
+  "stac_version": "1.0.0",
+  "description": "Maps are obtained from the Copernicus Sentinel-5P satellite and show the averaged nitrogen dioxide concentrations over Austria using a 14-day moving average.  Using a 14 day average eliminates some effects which are caused by short term meteorology changes and cloud cover. The average gives an overview over the whole time period and therefore reflects trends better than shorter time periods.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "child",
+      "href": "./Nitrogen_Dioxide_S5P/collection.json",
+      "type": "application/json",
+      "title": "Nitrogen Dioxide (NO2)",
+      "subtitle": "NO2 maps obtained from the Copernicus Sentinel5-p satellite",
+      "code": "AQ5",
+      "id": "Nitrogen_Dioxide_S5P",
+      "themes": [
+        "mobility-transition"
+      ],
+      "tags": [
+        "NO2 measurements"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "AQ5"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    }
+  ],
+  "subtitle": "NO2 maps obtained from the Copernicus Sentinel5-p satellite",
+  "themes": [
+    "mobility-transition"
+  ],
+  "tags": [
+    "NO2 measurements"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "AQ5",
+  "title": "Nitrogen Dioxide (NO2)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ],
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-03-25T14:27:20.140358Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "SISTEMA"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "AQ5"
+    ],
+    "themes": [
+      "mobility-transition"
+    ],
+    "satellite": [
+      "placeholder"
+    ],
+    "sensor": [
+      "placeholder"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/AQ5_Nitrogen_Dioxide_S5P/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

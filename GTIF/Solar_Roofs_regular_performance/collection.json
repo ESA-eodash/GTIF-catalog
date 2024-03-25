@@ -1,0 +1,118 @@
+{
+  "type": "Collection",
+  "id": "Solar_Roofs_regular_performance",
+  "stac_version": "1.0.0",
+  "description": "#### HOW TO USE THIS TOOL\n\nVisualise the potential electric power in MWh that can be produced considering that the PV has a regular performance ratio [86%] and a regular efficiency [19%].\n\n**Developed with**  \n![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/gtif-logos/dlr_row.jpg)\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "child",
+      "href": "./Solar_Roofs_regular_performance/collection.json",
+      "type": "application/json",
+      "title": "Total electric power production potential - Regular Performance",
+      "subtitle": "Total electric power production potential - Regular Performance",
+      "code": "SOL2_2",
+      "id": "Solar_Roofs_regular_performance",
+      "themes": [
+        "sustainable-cities"
+      ],
+      "tags": [
+        "Solar Roofs"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "SOL2_2"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    }
+  ],
+  "subtitle": "Total electric power production potential - Regular Performance",
+  "themes": [
+    "sustainable-cities"
+  ],
+  "tags": [
+    "Solar Roofs"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "SOL2_2",
+  "title": "Total electric power production potential - Regular Performance",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ],
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-01-01T00:00:00Z",
+          "2023-01-01T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "placeholder"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "SOL2_2"
+    ],
+    "themes": [
+      "sustainable-cities"
+    ],
+    "satellite": [
+      "placeholder"
+    ],
+    "sensor": [
+      "placeholder"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/SOL2_Solar_Roofs_high_performance/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}

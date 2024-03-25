@@ -1,0 +1,118 @@
+{
+  "type": "Collection",
+  "id": "Coarse_particulate_matter_PM10",
+  "stac_version": "1.0.0",
+  "description": "Particulate Matter with diameters less than 10\u00b5m - mass concentration in \u00b5g/m\u00b3 obtained daily from the Copernicus Atmosphere Monitoring Service (CAMS) European air quality forecasts dataset.The value displayed on the platform represents the geographical mean and maxima values of the daily average pollutant concentration for each Local Administrative Unit (LAU)\n\nSelecting the single LAU it is possible to visualize in the \"ANALYSIS\" box the respective time series of PM10.\n",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    },
+    {
+      "rel": "child",
+      "href": "./Coarse_particulate_matter_PM10/collection.json",
+      "type": "application/json",
+      "title": "Coarse particulate matter (PM10)",
+      "subtitle": "Daily aggregated maps of PM10 concentration",
+      "code": "AQB",
+      "id": "Coarse_particulate_matter_PM10",
+      "themes": [
+        "mobility-transition"
+      ],
+      "tags": [
+        "Air Quality Health"
+      ],
+      "satellite": [
+        "placeholder"
+      ],
+      "sensor": [
+        "placeholder"
+      ],
+      "agency": [
+        "ESA"
+      ],
+      "subcode": "AQB"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "GTIF"
+    }
+  ],
+  "subtitle": "Daily aggregated maps of PM10 concentration",
+  "themes": [
+    "mobility-transition"
+  ],
+  "tags": [
+    "Air Quality Health"
+  ],
+  "satellite": [
+    "placeholder"
+  ],
+  "sensor": [
+    "placeholder"
+  ],
+  "agency": [
+    "ESA"
+  ],
+  "subcode": "AQB",
+  "title": "Coarse particulate matter (PM10)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ],
+        [
+          11,
+          46.5,
+          15.5,
+          48.9
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-03-25T14:27:20.389813Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary",
+  "providers": [
+    {
+      "name": "SISTEMA"
+    }
+  ],
+  "summaries": {
+    "subcode": [
+      "AQB"
+    ],
+    "themes": [
+      "mobility-transition"
+    ],
+    "satellite": [
+      "placeholder"
+    ],
+    "sensor": [
+      "placeholder"
+    ]
+  },
+  "assets": {
+    "legend": {
+      "href": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/AQB_Coarse_particulate_matter_PM10/cm_legend.png",
+      "type": "image/png",
+      "roles": [
+        "metadata"
+      ]
+    }
+  }
+}
